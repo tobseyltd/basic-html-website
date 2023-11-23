@@ -16,11 +16,20 @@ a {
     color: black;
 }
 
+button {
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
 header {
     background-color: antiquewhite;
     display: flex;
     justify-content: center;
-    height: 100px
+    height: 100px;
 }
 
 .wrapper {
@@ -45,7 +54,6 @@ header {
     margin-right: 15px;
 }
 
-
 .mid {
     width: 20%;
     display: flex;
@@ -69,4 +77,37 @@ header {
 .right iconify-icon {
     font-size: 15px;
     cursor: pointer;
+}
+
+.hero-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.hero-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.action-call {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.action-call * {
+    margin-bottom: 30px;
+}
+
+.action-call h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.action-call p {
+    line-height: 20px;
+    max-width: 60ch;
 }
